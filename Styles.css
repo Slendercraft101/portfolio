@@ -3,21 +3,23 @@
   }
   
   .Menu_Bar {
+    position: relative;
+    display: flex;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase;
-    padding: 32px;
     background-color: #0a0a23;
     color: #fff;
-    border-bottom: 4px solid #fdb347;
+    border-bottom: 6px solid #fdb347;
     overflow: hidden;
+    padding: 32px;
   }
   
   /* Style the links */
   .Menu_Bar a {
-    float: left;
-    color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    color: #f2f2f2;
+    padding: 14px 5%;
     text-decoration: none;
     font-size: 17px;
   }
